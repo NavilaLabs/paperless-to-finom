@@ -1,0 +1,7 @@
+# Core (needed for `sync` / cron):
+requests>=2.31
+python-dotenv>=1.0    # optional, for .env loading
+
+# Only needed if you run the HTTP trigger (`serve`):
+fastapi>=0.110
+uvicorn>=0.29
